@@ -2,10 +2,11 @@
   .side-bar__user-name
     .side-bar__user-name__top-items
       .side-bar__user-name__top-items__name
-        kkk
+        = current_user.name
       .side-bar__user-name__top-items__icons
         = link_to "#", class: "button" do
           = icon("fa", "edit") 
+        = link_to edit_user_path(current_user), class: "button" do
           = icon("fa", "cog")
   .side-bar__groups
     .side-bar__groups__group
