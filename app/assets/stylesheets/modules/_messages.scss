@@ -36,6 +36,12 @@
       padding: 20px 20px 0;
       overflow: scroll;
       &__group{
+        .group {
+          a {
+            color: #ffffff;
+            text-decoration: none;
+          }
+        }
         margin-bottom: 40px;
         color: #ffffff;
         &__list{
